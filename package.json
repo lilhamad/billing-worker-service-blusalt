@@ -1,7 +1,7 @@
 {
-  "name": "settlement-automation-api",
+  "name": "billing-worker-service",
   "version": "1.0.0",
-  "description": "Automation Of Card Transaction Settlement",
+  "description": "billing-worker-service",
   "main": "server/app.js",
   "scripts": {
     "migrate": "./node_modules/.bin/sequelize db:migrate",
