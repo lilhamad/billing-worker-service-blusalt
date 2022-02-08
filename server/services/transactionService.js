@@ -19,8 +19,7 @@ class transactionService {
       await t.rollback();
       console.log("Request error -- " + JSON.stringify(error));
       console.log("Request error --m " + error.message);
-      return { status: false, message : JSON.stringify(error)} //test
-      throw error; //test
+      return { status: false, message : JSON.stringify(error)}
     }
   }  
   
